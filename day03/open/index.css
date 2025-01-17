@@ -1,0 +1,33 @@
+.card {
+  width: 300px;
+  height: 400px;
+  background-image: url("https://pixabay.com/get/gd5ead65bb1a3a82352f4320102bfd62f73f65ca776e976ecddc10181f1b5dae2b81bb4fa20d2de43b493de0eeb3c10ec_640.jpg");
+  background-size: cover;
+  border-radius: 25px;
+  border: none;
+
+  padding: 150px 50px 0;
+}
+
+.card > span {
+  border: 1px solid orange;
+  padding: 10px 15px;
+  border-radius: 999px;
+  color: orange;
+  font-weight: bold;
+}
+
+.card > h1 {
+  color: white;
+  padding-top: 10px;
+}
+
+.card > button {
+  color: #666;
+  /* background: none; */
+  background-color: transparent;
+  border: none;
+  padding-top: 60px;
+  font-size: 18px;
+  font-weight: bold;
+}

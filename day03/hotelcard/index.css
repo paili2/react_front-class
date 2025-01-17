@@ -1,0 +1,37 @@
+.card {
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  padding: 15px 25px;
+  display: inline-block;
+
+  color: white;
+}
+
+.image1 {
+  background-image: url("https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTgwfDB8MXxzZWFyY2h8Mnx8aXRhbHl8ZW58MHx8fHwxNzM3MTEzOTE3fDA&ixlib=rb-4.0.3&q=80&w=400");
+}
+
+.image2 {
+  background-image: url("https://images.unsplash.com/photo-1501117716987-c8c394bb29df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTgwfDB8MXxzZWFyY2h8Mnx8b2NlYW4lMjB2aWV3fGVufDB8fHx8MTczNzExNDIwMXww&ixlib=rb-4.0.3&q=80&w=400");
+  margin-left: 20px;
+}
+
+.image3 {
+  background-image: url("https://pixabay.com/get/g84140bab924247d519edaf8d58078972442228d3a007f28379d4e00d4f2ef21b26f857c12a8e2ac58ea63a2c71580d7b9199388161430a48f0939eaa31e5e3d6_640.jpg");
+  margin-left: 20px;
+}
+
+.image4 {
+  background-image: url("https://images.unsplash.com/photo-1528123887526-0775584e2093?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTgwfDB8MXxzZWFyY2h8MzB8fGl0YWx5fGVufDB8fHx8MTczNzExMzkxN3ww&ixlib=rb-4.0.3&q=80&w=400");
+  margin-left: 20px;
+}
+
+.subject {
+  border-bottom: 1px solid white;
+  /* text-decoration: underline;
+  text-underline-offset: 10px; 
+  => text-decoration 사용 시 글자와 밑줄 사이에 간격 주기 */
+  padding: 5px 0;
+}
