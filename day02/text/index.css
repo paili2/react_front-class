@@ -1,0 +1,40 @@
+.logo {
+  color: skyblue;
+  text-align: center; /* 글자 정렬 */
+  letter-spacing: 2px; /* 글자 사이 간격 */
+  font-size: 16px;
+  margin-top: 200px;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+}
+
+.sub {
+  text-align: center;
+  color: #b4b4b4;
+  margin-top: 10px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.apple {
+  background-color: white;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  padding: 10px 30px;
+  color: #262b41;
+  font-weight: bold;
+}
+
+.google {
+  background-color: #262b41;
+  border: 1px solid #262b41;
+  border-radius: 4px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: bold;
+}

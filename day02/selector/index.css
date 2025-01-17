@@ -1,0 +1,29 @@
+button {
+  color: pink;
+  font-size: 20px;
+}
+
+h1 {
+  color: green;
+}
+
+ol > li {
+  color: skyblue;
+}
+
+/* p 태그는 글씨가 주황색이고 */
+/* span 태그는 글씨가 빨간색이고 폰트 두께가 두껍게 */
+/* h1 태그는 글씨가 회색으로 나타내기 */
+
+div > p {
+  color: orange;
+}
+
+div > p > span {
+  color: red;
+  font-weight: bold;
+}
+
+div > p > h1 {
+  color: gray;
+}
