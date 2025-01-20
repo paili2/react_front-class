@@ -1,0 +1,71 @@
+.container {
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 8px;
+}
+
+.album {
+  width: 100%;
+  height: 70%;
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.info {
+  background-color: white;
+
+  width: 100%;
+  height: 20%;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skyblue {
+  color: skyblue;
+}
+
+.cart {
+  background-color: #666;
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  color: skyblue;
+
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
