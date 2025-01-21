@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.album {
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
+  border: none;
+}
+
+.album > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  border: none;
+  object-fit: cover;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+}
