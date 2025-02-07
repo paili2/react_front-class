@@ -1,0 +1,40 @@
+.end > .contents {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.end > .contents > .album {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.end > .contents > .album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.end > .contents > .text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.end > .contents > .text > h2 {
+  font-size: 50px;
+}
+
+.end > .contents > .text > h4 {
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 100;
+}

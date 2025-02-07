@@ -1,0 +1,95 @@
+.mission {
+  width: 100vw;
+  margin-top: 200px;
+  padding-bottom: 50px;
+  padding: 100px 0;
+}
+
+.contents {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contents > span {
+  color: gray;
+  font-size: 20px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title > h1 {
+  font-size: 60px;
+  gap: 10px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 500px;
+  height: 500px;
+  border: none;
+  border-radius: 30px;
+
+  background-size: cover;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 90px;
+  gap: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.filter {
+  position: absolute;
+  background-color: #3a0000;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  border-radius: 30px;
+}
+
+.image1 {
+  background-image: url("https://ably.team/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fably-team%2F609556b7-6622-4125-8ddc-2d1818a8c99b_image2.png%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C0%2C1500%2C1500%26w%3D960%26h%3D960&w=1920&q=75");
+}
+
+.image2 {
+  background-image: url("https://ably.team/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fably-team%2Fe89b347b-e136-41de-89be-d683aa11abce_chain_commerce.png%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C33%2C1856%2C1856%26w%3D960%26h%3D960&w=1920&q=75");
+}
+
+.category {
+  z-index: 1;
+}
+
+.card__title {
+  font-size: 30px;
+  z-index: 1;
+}
+
+.card > button {
+  border: none;
+  border-radius: 999px;
+  padding: 20px 20px;
+
+  font-size: 20px;
+  color: gray;
+  margin-top: 20px;
+  z-index: 1;
+}
